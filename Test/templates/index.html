@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="container cont center">
+        <div class="row">
+            <div class="col-md-10 center">
+                <h3>Welcome, Binod</h3>
+
+                <div class="container lists">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>My daily routine</h4>
+                            {% for task in tasks %}
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <a style="color:olivedrab;" href="">{{ task.task }}
+                                     <a style="color:lightsalmon" href="">{{ task.time }}</a>
+                                    </a>
+
+                                    <a class="btn btn-info" style="float: right" href="edit/{{ task.id }}">Edit</a>
+                                    <a href="delete/{{ task.id }}" class="btn btn-danger" style="float: right;margin: 0px 20px 0px 0px;">Delete</a>
+
+                                </li>
+
+
+
+
+                            </ul>
+                            {% endfor %}
+
+                        </div>
+
+                    </div>
+                          <button style="float: right;margin:30px 0px 0px 0px;" class="btn btn-success">
+                    <a href="{% url 'create' %}">Add your Daily routine now! </a>
+                </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+{% endblock %}
