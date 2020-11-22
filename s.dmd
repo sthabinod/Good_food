@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="s" id="F2D24318-131B-9F6B-05F9-68C5DB921A55" version="3.5">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-11-22 15:04:26 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F2D24318-131B-9F6B-05F9-68C5DB921A55</designId>
+</OSDM_Design>
