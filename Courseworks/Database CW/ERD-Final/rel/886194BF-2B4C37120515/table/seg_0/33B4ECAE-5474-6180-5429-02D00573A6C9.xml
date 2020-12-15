@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33B4ECAE-5474-6180-5429-02D00573A6C9" name="Bill_order">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:54:25 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sn" id="126B37C8-5921-F5EA-B2F1-CD9C915DA804">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:54:53 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA2ADC43-D102-F9E1-E8A1-7BE8448971F7" referredColumn="141F2359-1D40-EB31-87AA-25D3EFDFC6FD"/>
+</associations>
+</Column>
+<Column name="Order_id" id="8778DC9C-DFF8-3A32-DB5E-8F13640C63C0">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:55:25 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0814794D-31D1-5629-16D7-29378FD64547" referredColumn="11F705EC-D1F7-FCF1-43CA-C43A9C564B30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B69D7646-8B78-E55B-EDB6-B67C8FDACD95" name="Bill_order_PK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:54:53 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="126B37C8-5921-F5EA-B2F1-CD9C915DA804"/>
+<colUsage columnID="8778DC9C-DFF8-3A32-DB5E-8F13640C63C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE7285D5-3545-BD16-2728-AC90C264AFC1" name="Bill_order_Bill_FK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:55:39 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="126B37C8-5921-F5EA-B2F1-CD9C915DA804"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F064227A-B3D9-D36F-6D23-1CE90E5EF14F" name="Bill_order_Order_FK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:57:04 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8778DC9C-DFF8-3A32-DB5E-8F13640C63C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

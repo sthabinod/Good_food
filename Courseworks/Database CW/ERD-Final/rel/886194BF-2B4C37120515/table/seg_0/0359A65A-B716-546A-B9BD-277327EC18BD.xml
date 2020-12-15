@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0359A65A-B716-546A-B9BD-277327EC18BD" name="Address">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 07:07:17 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Home_id" id="8D89D997-18E9-747A-3C4D-62DA79C4636F">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 07:18:43 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Logitude" id="9D068899-11FA-EA5B-234F-E6C4B72F1EE9">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 07:18:43 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Latitude" id="DDCEF668-5B98-D297-BF72-46B85B17A525">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 07:19:40 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="949D622E-F957-1C4A-3E83-E16DD2687069">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 07:21:17 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Street" id="47653E3D-5B67-5B64-CEE2-F59847406E52">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 07:21:44 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6A636A5-05D2-FFC3-F44B-CE6A6CBE473C" name="Address_PK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 07:18:43 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D89D997-18E9-747A-3C4D-62DA79C4636F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ERD-Final" id="16C1197B-0FBC-6F3C-FA31-838AEEE9C8D4" version="3.5">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 07:05:16 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>16C1197B-0FBC-6F3C-FA31-838AEEE9C8D4</designId>
+</OSDM_Design>

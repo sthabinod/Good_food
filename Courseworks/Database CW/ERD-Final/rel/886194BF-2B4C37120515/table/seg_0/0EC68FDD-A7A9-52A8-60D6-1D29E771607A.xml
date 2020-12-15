@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EC68FDD-A7A9-52A8-60D6-1D29E771607A" name="Dish_restaurant">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:44:33 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dish_code" id="210487B4-74C0-F133-4473-202C47816D37">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:46:20 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD0893C6-07E3-54D4-45B3-EB1F3B81D4F0" referredColumn="8D57F1E1-0598-D70A-CA24-9784840AD236"/>
+</associations>
+</Column>
+<Column name="Available_on_restaurant" id="A14E95FA-9E35-712A-B692-EE2A731BBDC1">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:46:56 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66089121-DA7C-C1FD-3CB8-21643D9C9B4F" name="Dish_restaurant_PK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:46:20 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="210487B4-74C0-F133-4473-202C47816D37"/>
+<colUsage columnID="A14E95FA-9E35-712A-B692-EE2A731BBDC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFAFB62D-A757-4EE5-AC06-E6FA7058E123" name="Dish_restaurant_Dishes_FK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:47:31 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="210487B4-74C0-F133-4473-202C47816D37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87314F0E-DC65-9625-F799-EC7DB1974F42" containerWithKeyObject="228D4E55-DC89-D2ED-C4FE-984C0B068127" localFKIndex="8AA8586C-B668-1309-114A-B69A5CF55B40" name="Dishes_Loyalty_FK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 08:18:59 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<referredTableLongName>Loyalty</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>91862176-29CE-8629-68DF-6CE3E2CC3D46</referredTableID>
+<keyObject>6AE72100-2CF2-5296-8C8A-8AE03BF81D79</keyObject>
+<referredKeyID>6AE72100-2CF2-5296-8C8A-8AE03BF81D79</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Loyalty_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

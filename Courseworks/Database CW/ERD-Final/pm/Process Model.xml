@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="6B8F4D8F-2F46-8479-0141-3381C015E3DE">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 07:05:16 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

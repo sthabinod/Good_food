@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24E3293B-4990-E3FD-38A6-2AEEF6A4F9A7" name="Bill">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:50:43 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sn" id="141F2359-1D40-EB31-87AA-25D3EFDFC6FD">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:52:15 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="53D0CAF2-AAC9-7FA0-6C83-D15F14833F11">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:52:15 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="388F4156-1DC0-D8F2-8289-1DA2CC2EC93E" name="Bill_PK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:52:15 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="141F2359-1D40-EB31-87AA-25D3EFDFC6FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D98AE711-B4D5-5733-1BFB-4263C5B01D0A" name="Restaurant">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 08:38:54 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Restaurant_id" id="99E8B581-0AA8-FE8A-7482-B9E2568A08DA">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:39:38 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Restaurant_name" id="4AB1CDED-C6DD-117D-A198-5D671F1B63CE">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:40:10 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registered_date" id="B1DA55D7-D8A1-FD79-926B-97ECCFEDC9C8">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:40:36 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_number" id="F2AF522F-2653-81EE-3721-8816C9BB2A6E">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:41:00 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_number" id="62623FC4-BAB7-D730-E973-1051F2A3931E">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:41:26 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_id" id="5D4E0F7B-BD72-3A53-A150-C4BE44D85BFD">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:42:12 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D3977D8-0AEF-7086-8254-2B826DE6DF9C" referredColumn="D63E4D79-004A-3267-7656-6A4FDC0F1C77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47F89CE9-6442-331D-795A-E90B3619AF3E" name="Restaurant_PK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:39:38 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99E8B581-0AA8-FE8A-7482-B9E2568A08DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A29CFC6A-8A09-5E87-7C73-5BFB00B28872" name="Restaurant_Customer_FK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 09:42:30 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D4E0F7B-BD72-3A53-A150-C4BE44D85BFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="228D4E55-DC89-D2ED-C4FE-984C0B068127" name="Dishes">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 08:12:42 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dish_code" id="8D57F1E1-0598-D70A-CA24-9784840AD236">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 08:13:35 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dish_name" id="FB7B1AD1-B9C7-1DA5-7F02-3A8657D79511">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 08:14:21 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Another_name" id="F66C94D7-5A5A-927D-40FE-096B324727FA">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 08:14:44 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dish_rate" id="7CF44912-6A99-64AF-F760-D93BD5F36186">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 08:15:49 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Loyalty_id" id="A5C32B7F-083A-68F9-3D12-F64B89E2EAB5">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 08:17:24 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87314F0E-DC65-9625-F799-EC7DB1974F42" referredColumn="67D8D667-1D74-C965-2057-E75EDB6FD245"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="039CF212-BA34-5BBF-301A-F1719AAAA2C5" name="Dishes_PK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 08:13:35 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D57F1E1-0598-D70A-CA24-9784840AD236"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AA8586C-B668-1309-114A-B69A5CF55B40" name="Dishes_Loyalty_FK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-15 08:18:59 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5C32B7F-083A-68F9-3D12-F64B89E2EAB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
