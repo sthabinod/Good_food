@@ -52,6 +52,27 @@
 <colAssociation fkAssociation="A3CBAD6A-0111-791A-5A56-4191388AD989" referredColumn="D63E4D79-004A-3267-7656-6A4FDC0F1C77"/>
 </associations>
 </Column>
+<Column name="Time" id="8F9F8677-A773-BF29-9BDA-8E09DD3862E0">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-22 06:53:56 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Delivery_status" id="49EB83DD-871B-1B6C-C856-5CDD6F6C3DC3">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-22 06:55:03 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="2D01F554-C92B-AF2F-757B-DB6FCB02140D" name="Order_PK">

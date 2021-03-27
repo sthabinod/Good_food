@@ -46,17 +46,6 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Restaurant" id="A926B12A-7DBD-069C-E52C-A90C72E46EBB">
-<createdBy>Bee-nod</createdBy>
-<createdTime>2020-12-15 08:24:12 UTC</createdTime>
-<ownerDesignName>ERD-Final</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7831B186-7AF2-897F-E815-6793F8F860D4" name="Dish_Order_PK">

@@ -28,10 +28,12 @@
 <ownerDesignName>ERD-Final</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C9A0697-F40D-0B63-91C5-57F5DE09E5B8" referredColumn="99E8B581-0AA8-FE8A-7482-B9E2568A08DA"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -55,6 +57,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="210487B4-74C0-F133-4473-202C47816D37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="451C480B-8980-C593-0AD7-81A5F42E6CC1" name="Dish_restaurant_Restaurant_FK">
+<createdBy>Bee-nod</createdBy>
+<createdTime>2020-12-25 06:06:33 UTC</createdTime>
+<ownerDesignName>ERD-Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A14E95FA-9E35-712A-B692-EE2A731BBDC1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
