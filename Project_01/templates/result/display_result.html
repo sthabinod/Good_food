@@ -1,0 +1,202 @@
+{% extends 'base.html' %}
+{% block content %}
+
+ <div style="margin-top: 200px;" class="main-content">
+    <div class="container mt-7">
+      <!-- Table -->
+      <h2 class="mb-5">
+          {% if percentage >= 40 and percentage <= 100 %}
+                Congratulation!
+          {% elif percentage < 40 and percentage >= 0 %}
+          Work Hard!
+          {% endif %}
+          {{student.user.first_name}} {{student.user.last_name}} </h2><div class="row">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header border-0">
+                {% for exam in exams %}
+                    <h3 class="mb-0">Report card :  {{ exam.exam_term }} | {{ exam.exam_year }}</h3>
+                {% endfor %}
+            </div>
+            <div class="table-responsive">
+              <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">Subject</th>
+                    <th scope="col">Exam Score</th>
+                    <th scope="col">Test Score</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Status</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                <th scope="row">
+                      <div class="media align-items-center">
+
+                        <div class="media-body">
+                          <span class="mb-0 text-sm">Nepali</span>
+
+                        </div>
+                      </div>
+                    </th>
+                 <td>
+                         <span class="badge badge-dot mr-4">
+                         <i class="bg-success"></i> 11
+
+                      </span>
+                    </td>
+                     <td>
+                         <span class="badge badge-dot mr-4">
+                         <i class="bg-success"></i> 121
+
+                      </span>
+                    </td>
+                  <td>
+                         <span class="badge badge-dot mr-4">
+                         <i class="bg-success"></i> 121
+
+                      </span>
+                    </td>
+
+                <td>
+
+
+                      <div class="d-flex align-items-center">
+
+                        <div>
+                          <div class="progress">
+
+
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+
+
+
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                {% for r in result %}
+                  <tr>
+                    <th scope="row">
+                      <div class="media align-items-center">
+
+                        <div class="media-body">
+                          <span class="mb-0 text-sm">{{r.subject_number}}</span>
+                          <span class="mb-0 text-sm">{{r.subject_number}}</span>
+                        </div>
+                      </div>
+                    </th>
+
+                    <td>
+                         <span class="badge badge-dot mr-4">
+                         <i class="bg-success"></i> 11
+                              {% with mark=r.exam_score %}
+                                  {% if mark > 60 %}
+                                    <i class="bg-success"></i> {{r.exam_score}}
+                                  {% elif mark > 35 %}
+                                    <i class="bg-warning"></i> {{r.exam_score}}
+                                  {% elif mark < 35 %}
+                                    <i class="bg-danger"></i> {{r.exam_score}}
+                                  {% endif %}
+                             {% endwith %}
+                      </span>
+                    </td>
+
+                    <td>
+                      <span class="badge badge-dot mr-4">
+                        {% with mark=r.test_score %}
+                                  {% if mark > 8 %}
+                                    <i class="bg-success"></i> {{r.test_score}}
+                                  {% elif mark >= 5 %}
+                                    <i class="bg-warning"></i> {{r.test_score}}
+                                  {% elif mark  < 5 %}
+                                    <i class="bg-danger"></i> {{r.test_score}}
+                                  {% endif %}
+                             {% endwith %}
+                      </span>
+                    </td>
+
+                    <td>
+                       <span class="badge badge-dot mr-4">
+
+                           {% with t=r.test_score e=r.exam_score %}
+                                {{ e | add:t }}
+
+                       </span>
+                    </td>
+
+                    <td>
+
+
+                      <div class="d-flex align-items-center">
+
+                        <div>
+                          <div class="progress">
+                              {% if e|add:t > 70 and e|add:t <= 100  %}
+
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" style="width: {{ e | add:t }}%">
+
+
+                            </div>
+                              {% elif e|add:t < 70 and e|add:t >= 40 %}
+                              <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" style="width: {{ e | add:t }}%">
+
+                            </div>
+{% elif e|add:t < 40 and e|add:t >= 0 %}
+                                  <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" style="width: {{ e | add:t }}%">
+
+                            </div>
+                              {% endif %}
+
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="text-right">
+                      <div class="dropdown">
+                        <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                          <a class="dropdown-item" href="#"></a>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                    {% endwith %}
+                {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        <div class="container" style="margin-top:30px;">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Marks</h2>
+                    <p> <b>Total marks obtained:</b> {{grand_total}}</p>
+                    <p> <b>Total to be obtained:</b> {{total_to_get}}</p>
+                    <p> <b>Percentage:</b> {{percentage}}</p>
+                    <p> <b>Grade:</b> {{grade}} </p>
+                    <p> <b>Status:</b> {{ status }} </p>
+
+                </div>
+                <div class="col-md-6">
+                    <h2>Remarks</h2>
+                    <p><b>Grade Point Average(GPA):</b> {{ grade_points }} GPA </p>
+                    <p><b>Attendence:</b> Coming Soon. </p>
+                    <p><b>Parent name:</b> {{ parent }} </p>
+                    <p><b>Class Teacher:</b> Coming Soon.. </p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+{% block footer %}
+{% endblock %}
+{% endblock %}

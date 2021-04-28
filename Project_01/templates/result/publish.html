@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div style="margin-top: 100px;" class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div style="">
+    <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Exam Term</th>
+      <th scope="col">Exam Year</th>
+      <th scope="col">Publish Status</th>
+      <th scope="col">Publish </th>
+        <th scope="col">Unpublish </th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for exam in exams %}
+    <tr>
+      <th scope="row">1</th>
+      <td>{{ exam.exam_term }}</td>
+      <td>{{ exam.exam_year }}</td>
+      <td>{{ exam.is_publish }}</td>
+    <td><a href="{% url 'publish' exam.id %}">Publish</a></td>
+    <td><a href="{% url 'publish' exam.id %}">Unpublish</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+    </div>
+        </div>
+    </div>
+    </div>
+
+    {% endblock %}

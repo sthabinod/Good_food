@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7fa413b2-4a7f-4928-b12c-5dcdc8141a67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Project_01/result/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_01/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_01/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code with Harry/.idea/I donot know anything-clear.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/.vs/Login Form/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/.vs/Login Form/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/.vs/Login Form/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/.vs/Login Form/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Aboutus.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Aboutus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Aboutus.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/ClassDiagram1.cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Dummy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Form1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Form1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Form1.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Form2.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Form2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Form2.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Form3.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Form3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Form3.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Form4.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Form4.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Form4.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Login Form.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/UserControl1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/UserControl1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/UserControl1.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/UserControl2.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/UserControl2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/UserControl2.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/UserControl3.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/UserControl3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/UserControl3.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/UserControl4.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/UserControl4.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/UserControl4.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/bin/Debug/Bunifu_UI_v1.52.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/bin/Debug/Login Form.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/bin/Debug/Login Form.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/bin/Debug/Login Form.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login Form.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login Form.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login Form.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login Form.csproj.GenerateResource.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login Form.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login Form.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login Form.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login_Form.Aboutus.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login_Form.Form2.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login_Form.Form3.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login_Form.Form4.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login_Form.Login.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login_Form.Properties.Resources.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login_Form.UserControl1.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login_Form.UserControl2.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login_Form.UserControl3.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/Login_Form.UserControl4.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/C# Sem Coursework/Project/Login Form/Login Form/obj/Release/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final.dmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/businessinfo/Business Information.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/datatypes/DataTypes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/datatypes/structuredtype/seg_0/47E390DE-0671-C4B1-8428-0F45CBEE18F8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/datatypes/structuredtype/seg_0/F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/datatypes/subviews/D8A3DBE5-8D54-3BB3-1674-0374D86D1794.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/dl_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/logical/Logical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/logical/subviews/8F87502E-0B80-B5D2-73E2-470BE6F80CB1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/mapping/DeletedMap_RM886194BF-15BC-40BF-6C72-2B4C37120515.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/mapping/ExtendedMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/mapping/ExtendedMap_RM886194BF-15BC-40BF-6C72-2B4C37120515.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/pm/Process Model.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rdbms/ERD-Final_RDBMSSites.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/foreignkey/seg_0/0814794D-31D1-5629-16D7-29378FD64547.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/foreignkey/seg_0/2C9A0697-F40D-0B63-91C5-57F5DE09E5B8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/foreignkey/seg_0/2F8E2DF1-451B-A1A3-2C9F-41D5D0C8AEB2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/foreignkey/seg_0/6D3977D8-0AEF-7086-8254-2B826DE6DF9C.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/foreignkey/seg_0/87314F0E-DC65-9625-F799-EC7DB1974F42.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/foreignkey/seg_0/A3CBAD6A-0111-791A-5A56-4191388AD989.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/foreignkey/seg_0/BD0893C6-07E3-54D4-45B3-EB1F3B81D4F0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/foreignkey/seg_0/DA2ADC43-D102-F9E1-E8A1-7BE8448971F7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/foreignkey/seg_0/E8382C4E-2A7A-6F62-0790-88388C3BDD4D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/foreignkey/seg_0/E92560D0-41DB-FE1F-362D-4753BE3A0E11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/subviews/184F722F-1825-C3FE-4287-A04267BAB392.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/subviews/D614B0C2-81CB-C43B-F8F8-5798E0F707F5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/table/seg_0/0359A65A-B716-546A-B9BD-277327EC18BD.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/table/seg_0/0EC68FDD-A7A9-52A8-60D6-1D29E771607A.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/table/seg_0/228D4E55-DC89-D2ED-C4FE-984C0B068127.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/table/seg_0/24E3293B-4990-E3FD-38A6-2AEEF6A4F9A7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/table/seg_0/33B4ECAE-5474-6180-5429-02D00573A6C9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/table/seg_0/6D20CECD-82D4-AFC8-EFEC-EEE843462EB6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/table/seg_0/7271BA5F-8D40-A1C9-0FA1-DF6327D60229.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/table/seg_0/85A70A7A-9BD1-E086-A1AB-1E26246FC8DD.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/table/seg_0/91862176-29CE-8629-68DF-6CE3E2CC3D46.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courseworks/Database CW/ERD-Final/rel/886194BF-2B4C37120515/table/seg_0/D98AE711-B4D5-5733-1BFB-4263C5B01D0A.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django-RestFramework/DRF/account/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django-RestFramework/DRF/account/functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django-RestFramework/DRF/account/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django-RestFramework/DRF/photo_gallery/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django-RestFramework/DRF/photo_gallery/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django-RestFramework/DRF/templates/account/downloader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django-RestFramework/DRF/templates/account/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django-RestFramework/DRF/templates/account/uploader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django-RestFramework/DRF/templates/activate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django-RestFramework/DRF/templates/photo_gallery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django_Youtube/Yout/dolist/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/.vs/New Online Good Food/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/.vs/New Online Good Food/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Address.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Address.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Address.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/App_Start/BundleConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/App_Start/RouteConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Bundle.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Content/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Customer Order.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Customer Order.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Customer Order.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Customer.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Customer.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Customer.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Default.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Default.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Default.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Food Search.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Food Search.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Food Search.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Food.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Food.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Food.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Global.asax" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Global.asax.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Loyalty.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Loyalty.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Loyalty.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/New Online Good Food.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/New Online Good Food.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Order Activity.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Order Activity.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Order Activity.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Restaurant.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Restaurant.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Restaurant.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/DetailsView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/Focus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/GridView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/MSAjax/MicrosoftAjax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/Menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/MenuStandards.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/SmartNav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/TreeView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/WebForms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/WebParts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/WebForms/WebUIValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/esm/popper-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/esm/popper-utils.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/esm/popper-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/esm/popper-utils.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/esm/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/esm/popper.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/esm/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/esm/popper.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/index.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/jquery-3.4.1.intellisense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/jquery-3.4.1.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/jquery-3.4.1.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/jquery-3.4.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/jquery-3.4.1.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/modernizr-2.8.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/popper-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/popper-utils.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/popper-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/popper-utils.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/popper.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/popper.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/methods/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/methods/destroy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/methods/disableEventListeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/methods/enableEventListeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/methods/placements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/methods/update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/modifiers/applyStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/modifiers/arrow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/modifiers/computeStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/modifiers/flip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/modifiers/hide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/modifiers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/modifiers/inner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/modifiers/keepTogether.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/modifiers/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/modifiers/preventOverflow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/modifiers/shift.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/clockwise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/computeAutoPlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/debounce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/find.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/findCommonOffsetParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/findIndex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getBordersSize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getBoundaries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getBoundingClientRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getClientRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getFixedPositionOffsetParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getOffsetParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getOffsetRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getOffsetRectRelativeToArbitraryNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getOppositePlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getOppositeVariation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getOuterSizes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getParentNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getPopperOffsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getReferenceNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getReferenceOffsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getRoot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getRoundedOffsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getScrollParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getStyleComputedProperty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getSupportedPropertyName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/getWindowSizes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/includeScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/isBrowser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/isFixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/isFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/isIE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/isModifierEnabled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/isModifierRequired.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/isNumeric.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/isOffsetContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/removeEventListeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/runModifiers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/setAttributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/setStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/src/utils/setupEventListeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/umd/popper-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/umd/popper-utils.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/umd/popper-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/umd/popper-utils.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/umd/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/umd/popper.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/umd/popper.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/umd/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Scripts/umd/popper.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Site.Master" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Site.Master.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Site.Master.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Site.Mobile.Master" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Site.Mobile.Master.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Site.Mobile.Master.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Try.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Try.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Try.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/ViewSwitcher.ascx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/ViewSwitcher.ascx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/ViewSwitcher.ascx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Web.Debug.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Web.Release.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/Antlr3.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/Antlr3.Runtime.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/AspNet.ScriptManager.bootstrap.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/AspNet.ScriptManager.jQuery.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/Microsoft.AspNet.FriendlyUrls.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/Microsoft.AspNet.FriendlyUrls.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/Microsoft.AspNet.Web.Optimization.WebForms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/Microsoft.ScriptManager.MSAjax.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/Microsoft.ScriptManager.WebForms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/Microsoft.Web.Infrastructure.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/New Online Good Food.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/New Online Good Food.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/New Online Good Food.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/System.Web.Optimization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/System.Web.Optimization.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/WebGrease.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/Microsoft.CSharp.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/Microsoft.Managed.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/Microsoft.VisualBasic.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/Microsoft.Win32.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.AppContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Console.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Diagnostics.FileVersionInfo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Globalization.Calendars.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.IO.Compression.ZipFile.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.IO.Compression.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.IO.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Net.Http.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Net.Sockets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Reflection.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Security.Cryptography.Algorithms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Security.Cryptography.Encoding.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Security.Cryptography.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Security.Cryptography.X509Certificates.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Text.Encoding.CodePages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Xml.ReaderWriter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Xml.XPath.XDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Xml.XPath.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/System.Xml.XmlDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/VBCSCompiler.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/VBCSCompiler.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/csc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/csc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/csc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/csi.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/csi.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/csi.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/vbc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/vbc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/bin/roslyn/vbc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/obj/Debug/New Online Good Food.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/obj/Debug/New Online Good Food.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/obj/Debug/New Online Good Food.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/obj/Debug/New Online Good Food.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/obj/Debug/New Online Good Food.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/obj/Debug/New Online Good Food.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/obj/Debug/Tsc.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/obj/Debug/build.force" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/New Online Good Food/src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Antlr.3.5.0.2/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Antlr.3.5.0.2/Antlr.3.5.0.2.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Antlr.3.5.0.2/lib/Antlr3.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Antlr.3.5.0.2/lib/Antlr3.Runtime.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/AspNet.ScriptManager.bootstrap.4.6.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/AspNet.ScriptManager.bootstrap.4.6.0/AspNet.ScriptManager.bootstrap.4.6.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/AspNet.ScriptManager.bootstrap.4.6.0/lib/net40/AspNet.ScriptManager.bootstrap.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/AspNet.ScriptManager.bootstrap.4.6.0/lib/net45/AspNet.ScriptManager.bootstrap.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/AspNet.ScriptManager.jQuery.3.4.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/AspNet.ScriptManager.jQuery.3.4.1/AspNet.ScriptManager.jQuery.3.4.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/AspNet.ScriptManager.jQuery.3.4.1/lib/net40/AspNet.ScriptManager.jQuery.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/AspNet.ScriptManager.jQuery.3.4.1/lib/net45/AspNet.ScriptManager.jQuery.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/App_Start/RouteConfig.cs.pp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/Site.Mobile.Master.cs.pp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/Site.Mobile.Master.designer.cs.pp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/Site.Mobile.Master.pp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/ViewSwitcher.ascx.cs.pp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/ViewSwitcher.ascx.designer.cs.pp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/ViewSwitcher.ascx.pp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Microsoft.AspNet.FriendlyUrls.1.0.2.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/Microsoft.AspNet.FriendlyUrls.Core.1.0.2.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net40/Microsoft.AspNet.FriendlyUrls.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net40/Microsoft.AspNet.FriendlyUrls.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net45/Microsoft.AspNet.FriendlyUrls.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net45/Microsoft.AspNet.FriendlyUrls.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/lib/net45/Microsoft.ScriptManager.MSAjax.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/Microsoft.AspNet.ScriptManager.WebForms.5.0.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/DetailsView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/Focus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/GridView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/Menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/MenuStandards.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/SmartNav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/TreeView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/WebForms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/WebParts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/WebUIValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/lib/net45/Microsoft.ScriptManager.WebForms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.Web.Optimization.1.1.3/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.Web.Optimization.1.1.3/Microsoft.AspNet.Web.Optimization.1.1.3.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.Web.Optimization.1.1.3/lib/net40/System.Web.Optimization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.Web.Optimization.1.1.3/lib/net40/system.web.optimization.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.Web.Optimization.WebForms.1.1.3/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.Web.Optimization.WebForms.1.1.3/Microsoft.AspNet.Web.Optimization.WebForms.1.1.3.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.Web.Optimization.WebForms.1.1.3/content/web.config.transform" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.AspNet.Web.Optimization.WebForms.1.1.3/lib/net45/Microsoft.AspNet.Web.Optimization.WebForms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/app.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/app.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/app.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/app.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/web.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/web.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.Build.Tasks.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CSharp.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.CSharp.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.VisualBasic.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.DiaSymReader.Native.amd64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.DiaSymReader.Native.x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.VisualBasic.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.AppContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.IO.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.Reflection.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/VBCSCompiler.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/VBCSCompiler.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csi.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csi.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Build.Tasks.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CSharp.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.CSharp.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.VisualBasic.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.DiaSymReader.Native.amd64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.DiaSymReader.Native.x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Managed.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.VisualBasic.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Win32.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.AppContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Console.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Diagnostics.FileVersionInfo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Globalization.Calendars.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.Compression.ZipFile.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.Compression.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Net.Http.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Net.Sockets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Reflection.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Runtime.InteropServices.RuntimeInformation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.Algorithms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.Encoding.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.X509Certificates.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Text.Encoding.CodePages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.ReaderWriter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XPath.XDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XPath.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XmlDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/VBCSCompiler.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/VBCSCompiler.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/net45/install.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/net45/uninstall.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.Web.Infrastructure.1.0.0.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.Web.Infrastructure.1.0.0.0/Microsoft.Web.Infrastructure.1.0.0.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Microsoft.Web.Infrastructure.1.0.0.0/lib/net40/Microsoft.Web.Infrastructure.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Modernizr.2.8.3/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Modernizr.2.8.3/Content/Scripts/modernizr-2.8.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Modernizr.2.8.3/Modernizr.2.8.3.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Modernizr.2.8.3/Tools/common.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Modernizr.2.8.3/Tools/install.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Modernizr.2.8.3/Tools/uninstall.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/Newtonsoft.Json.12.0.2.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/net20/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/net20/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/net35/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/net35/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/net40/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/net40/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/net45/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/net45/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.3/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.3/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/netstandard2.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/netstandard2.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/Newtonsoft.Json.12.0.2/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/WebGrease.1.6.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/WebGrease.1.6.0/WebGrease.1.6.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/WebGrease.1.6.0/lib/WebGrease.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/WebGrease.1.6.0/tools/WG.EXE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/bootstrap.4.6.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Content/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Content/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Content/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Content/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Content/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Content/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Content/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Content/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Content/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Content/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Content/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Content/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Scripts/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Scripts/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Scripts/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Scripts/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Scripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Scripts/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Scripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/content/Scripts/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/bootstrap.4.6.0/contentFiles/any/any/wwwroot/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1-vsdoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/Tools/common.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/Tools/install.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/Tools/jquery-3.4.1.intellisense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/Tools/uninstall.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/jQuery.3.4.1/jQuery.3.4.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/esm/popper-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/esm/popper-utils.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/esm/popper-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/esm/popper-utils.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/esm/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/esm/popper.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/esm/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/esm/popper.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/index.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/popper-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/popper-utils.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/popper-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/popper-utils.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/popper.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/popper.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/methods/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/methods/destroy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/methods/disableEventListeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/methods/enableEventListeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/methods/placements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/methods/update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/modifiers/applyStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/modifiers/arrow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/modifiers/computeStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/modifiers/flip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/modifiers/hide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/modifiers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/modifiers/inner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/modifiers/keepTogether.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/modifiers/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/modifiers/preventOverflow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/modifiers/shift.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/clockwise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/computeAutoPlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/debounce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/find.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/findCommonOffsetParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/findIndex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getBordersSize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getBoundaries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getBoundingClientRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getClientRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getFixedPositionOffsetParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getOffsetParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getOffsetRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getOffsetRectRelativeToArbitraryNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getOppositePlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getOppositeVariation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getOuterSizes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getParentNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getPopperOffsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getReferenceNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getReferenceOffsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getRoot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getRoundedOffsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getScrollParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getStyleComputedProperty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getSupportedPropertyName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/getWindowSizes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/includeScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/isBrowser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/isFixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/isFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/isIE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/isModifierEnabled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/isModifierRequired.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/isNumeric.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/isOffsetContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/removeEventListeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/runModifiers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/setAttributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/setStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/src/utils/setupEventListeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/umd/popper-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/umd/popper-utils.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/umd/popper-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/umd/popper-utils.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/umd/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/umd/popper.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/umd/popper.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/umd/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/content/Scripts/umd/popper.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Online Good Food/packages/popper.js.1.16.1/popper.js.1.16.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/account/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/account/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/school/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/school/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/school/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/school/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/static/CSS/about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/static/CSS/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/static/CSS/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/static/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/static/CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/static/JS/src.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/static/JS/src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/templates/accounts/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/accounts/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/accounts/reset_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/templates/accounts/reset_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/accounts/reset_password_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/templates/accounts/reset_password_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/accounts/reset_password_enter_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/templates/accounts/reset_password_enter_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/accounts/reset_password_sent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/templates/accounts/reset_password_sent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/accounts/user_profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/events/event_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/templates/events/event_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/events/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/templates/events/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/result/add_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/templates/result/add_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/result/display_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/templates/result/display_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/result/view_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/templates/result/view_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/school/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/School_project/templates/school/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/School_project/templates/school/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/Test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/Test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/Test/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/Test/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/Test/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/Test/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/crud/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/crud/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/crud/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/crud/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/crud/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/crud/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/crud/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/crud/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/crud/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/templates/crud/create-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/templates/crud/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datamodeler/datamodeler/types/defaultdomains.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/account/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/account/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/account/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/pizza/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/pizza/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/pizza/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/templates/account/company.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/templates/account/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/templates/account/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/templates/pizza_template/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/templates/pizza_template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/templates/pizza_template/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/templates/pizza_template/pizza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/templates/pizza_template/pizzas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forms/NandiasGardern/templates/pizza_template/view_pizza.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s.dmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/businessinfo/Business Information.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/datatypes/DataTypes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/datatypes/structuredtype/seg_0/47E390DE-0671-C4B1-8428-0F45CBEE18F8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/datatypes/structuredtype/seg_0/F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/datatypes/subviews/C6F0FE8C-7F50-DCDF-2DB4-90AE41E97035.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/dl_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/logical/Logical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/logical/subviews/2ABABC19-7B78-D1DF-7CD9-8D60FB8C3B7D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/mapping/DeletedMap_RMD6F84CA1-84A7-96A8-E9E4-24908DD4F08D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/mapping/ExtendedMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/mapping/ExtendedMap_RMD6F84CA1-84A7-96A8-E9E4-24908DD4F08D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/pm/Process Model.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/rdbms/s_RDBMSSites.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/rel/D6F84CA1-24908DD4F08D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/rel/D6F84CA1-24908DD4F08D/subviews/2C3693FC-9B85-557C-E837-6F65BA250D45.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student-management/school/static/student_manage_static/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student-management/school/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student-management/school/student_manage_app/email_backend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student-management/school/student_manage_app/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student-management/school/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student-management/school/templates/hod_template/hod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student-management/school/templates/student_manage_template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student-management/school/templates/student_manage_template/login.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1qlzRLAkDJHgenpRWyEPpJGVtGf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="KEBS" type="Python.DjangoServer" factoryName="Django server">
+      <module name="KEBS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fa413b2-4a7f-4928-b12c-5dcdc8141a67" name="Default Changelist" comment="" />
+      <created>1617668955079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617668955079</updated>
+      <workItem from="1617668956154" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
